@@ -32,7 +32,7 @@
     font-weight: 400;
     text-align: center;
     background: url(../assets/Lupa.svg) no-repeat; 
-    background-position: 1rem;
+    background-position: .4rem;
 }
 
 @media screen and (min-width: 1024px) {
