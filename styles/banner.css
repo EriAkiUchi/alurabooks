@@ -1,0 +1,63 @@
+.banner {
+    background: var(--azul-degrade); /*como é gradiente, é apenas background e não background color*/
+    color: var(--branco);
+    padding: 2.5rem 2rem;
+    text-align: center;
+}
+
+.banner__titulo {
+    font-size: 1.12rem;
+    font-weight: 700;
+}
+
+.banner__texto {
+    font-weight: 500;
+    margin: 1rem 0;
+}
+
+.banner__pesquisa {
+    color: var(--branco);
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    border-radius: 1.5rem;
+    width: 100%;
+    padding: 1rem;
+}
+
+.banner__pesquisa::placeholder {
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+    font-size: 0.87rem;
+    font-weight: 400;
+    text-align: center;
+    background: url(../assets/Lupa.svg) no-repeat; 
+    background-position: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .banner__titulo {
+        font-size: 2.25rem;
+    }
+
+    .banner__pesquisa {
+        width: 50%;
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: 5rem;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .banner {
+        padding: 6rem 0;
+    }
+
+    .banner__pesquisa {
+        width: 40%;
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: 10rem;
+    }
+}
