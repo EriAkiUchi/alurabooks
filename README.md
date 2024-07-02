@@ -7,6 +7,7 @@ Estes foram os conceitos aplicados neste projeto:
 - Flexbox
 - Responsividade
 - Unidades Relativas
+- Variáveis CSS
 - Media Query
 - Combinadores e Seletores CSS
 - SwiperJS: biblioteca de JavaScript para realzar a lista de livros disponíveis
