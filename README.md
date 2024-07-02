@@ -15,4 +15,4 @@ Estes foram os conceitos aplicados neste projeto:
 A plataforma foi desenvolvida inicialmente em **mobile** para depois ser adaptada para telas maiores: **tablet** e **desktop**.  
 Portanto, este projeto é **mobile-first**.
 # Execução da plataforma
-Acesse a execução da plataforma por meio deste link: [Plataforma AluraBooks](https://plataforma-alura-nu.vercel.app/)  
+Acesse a execução da plataforma por meio deste link: [Plataforma AluraBooks](https://alurabooks-beta-self.vercel.app/)  
